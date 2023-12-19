@@ -18,8 +18,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install Quarto
-      run: |
+   
+      run: Install Python
         pip install quarto
         quarto --version
 
